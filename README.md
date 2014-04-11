@@ -9,12 +9,15 @@ Copyright (c) 2013-2014 Givecoin Developers
 What is Givecoin?
 ----------------
 
-Givecoin is a hybrid of both the long-lasting Litecoin crytocurrency implementation, and x11 hash algorithm
- - 60 second block targets
- - subsidy halves in 250k blocks (~6 years)
+Givecoin is a hybrid of the long-lasting Litecoin crytocurrency implementation, and x11 hash algorithm
  - ~500 million total coins
  - 1000 coins per block
- - 2016 blocks to retarget difficulty
+ - subsidy halves in 250k blocks (~6 years)
+ - 60 second block targets
+ - Proof of Work
+ - Difficulty retarget is handled by KGW with the time warp patch
+ - Block Maturation - 120 Confirmations
+ - 4 Confirmations
 
 For more information, as well as an immediately useable, binary version of
 the Givecoin client sofware, see http://www.givecoin.info
