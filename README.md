@@ -1,25 +1,23 @@
 Givecoin integration/staging tree
 ================================
 
-http://www.Givecoin.org
+http://www.givecoin.info
 
 Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 Givecoin Developers
+Copyright (c) 2013-2014 Givecoin Developers
 
 What is Givecoin?
 ----------------
 
-Givecoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 250kk blocks (~4 years)
+Givecoin is a hybrid of both the long-lasting Litecoin crytocurrency implementation, and x11 hash algorithm
+ - 60 second block targets
+ - subsidy halves in 250k blocks (~6 years)
  - ~500 million total coins
-
-The rest is the same as Bitcoin.
- - 960 coins per block
+ - 1000 coins per block
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Givecoin client sofware, see http://www.Givecoin.org.
+the Givecoin client sofware, see http://www.givecoin.info
 
 License
 -------
@@ -30,7 +28,7 @@ information or see http://opensource.org/licenses/MIT.
 Development process
 -------------------
 
-Developers work in their own trees, then submit pull requests when they think
+As always, developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
 If it is a simple/trivial/non-controversial change, then one of the Givecoin
@@ -46,7 +44,7 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
+completely stable. [Tags](https://github.com/Givecoin/givecoin) are created
 regularly to indicate new official, stable release versions of Givecoin.
 
 Testing
